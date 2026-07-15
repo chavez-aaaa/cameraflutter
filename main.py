@@ -3,6 +3,7 @@ from flask_cors import CORS
 
 from app.routes.imagen_routes import imagen_bp
 
+
 app = Flask(__name__)
 
 CORS(app)
